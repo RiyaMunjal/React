@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  background-color: #414141;
+  color:white;
+}
+
+.parent{
+  height:450px;
+  width:80%;
+  background-color: rgb(245, 255, 99);
+}
+
+.child{
+  height:250px;
+  width:60%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  background-color: #fa6666;
+
+
+}
+#btn{
+  background-color: rgb(67, 67, 255);
+  padding:10px;
+  margin:10px;
+  border-radius:15px;
+}

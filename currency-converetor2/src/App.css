@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    color:white;
+    background:url('https://media.istockphoto.com/id/1389093478/photo/stock-market-or-forex-trading-graph-with-map-world-representing-the-global-network-line-wire.jpg?s=1024x1024&w=is&k=20&c=duH7YAJZnSi_pCgqZjIjBlTG_EuTesfqSgexj4CrOX4=');
+    box-sizing: border-box;
+}
+
+.parent{
+    margin:20px;
+    position:absolute;
+    left:300px;
+    height:550px;
+    width:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center ;
+    color:black;
+    background-color: #e6ce35;
+}
+
+.child1{
+    display:flex;
+    justify-content: center;
+    margin:20px;
+    padding:40px;
+    width:80%;
+    height:80%;
+    color:black;
+    background-color: #fff;
+}
+
+.swapButton{
+    padding:10px;
+    width:100px;
+    height:50px;
+    background-color: #195c97;
+    border-radius: 15px;
+   
+   
+}
+.swapButton Button{
+    border-radius: 15px;
+    border:none;
+    background-color:#195c97;
+
+}
+#Submitbtn
+{
+  background-color: #195c97;
+  width: 80%;
+  border-radius: 25px;
+  font-size: 25px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px;
+}

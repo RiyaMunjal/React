@@ -1,0 +1,31 @@
+
+.Box{
+    width:80%;
+    height:80%;
+    background-color: #78b0d8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.one, .two{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ label{
+    background-color: #ffa5a5;
+}
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+  }
+  
+select option:checked{
+background-color:#fffdfd ;
+color:black;
+}
